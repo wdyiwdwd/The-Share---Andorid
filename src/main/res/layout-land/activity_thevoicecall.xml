@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.spi_ider.testsecond.PaletteView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/palette"/>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        fab:fab_addButtonColorNormal="@color/swanlake"
+        fab:fab_icon="@drawable/fab_bg_mini"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left"
+        fab:fab_size="mini"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_hung_up"
+            fab:fab_icon="@drawable/ic_call_end_black_24dp"
+            fab:fab_colorNormal="@color/swanlake"
+            fab:fab_size="mini" />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_select_image"
+            fab:fab_icon="@drawable/ic_photo_black_24dp"
+            fab:fab_colorNormal="@color/swanlake"
+            fab:fab_size="mini" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+</android.support.design.widget.CoordinatorLayout>

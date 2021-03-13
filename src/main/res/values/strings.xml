@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">The Share</string>
+    <string name="remote_assist">远程辅导</string>
+    <string name="call_title">同步协助请求</string>
+    <string name="connecting">正在连接</string>
+    <string name="connected">连接成功</string>
+    <string name="network_unstable">网络不稳定</string>
+    <string name="is_assisting">isAssisting</string>
+    <string name="start_title">联系人列表</string>
+    <string name="logout">退出登录</string>
+    <string name="add_friend">添加联系人</string>
+    <string name="password">密码</string>
+    <string name="username">用户名</string>
+    <string name="login">登录</string>
+    <string name="singup">注册</string>
+</resources>

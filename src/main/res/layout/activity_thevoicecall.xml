@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/root_layout"
+    android:layout_height="match_parent"
+    android:background="@color/black_deep"
+    android:orientation="vertical">
+    <!--<LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.44"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >-->
+
+        <!--<TextView
+            android:id="@+id/tv_call_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/voip_interface_text_color"
+            android:textSize="22sp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:visibility="visible" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_weight="0.41"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv_nick"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:text="张三丰"
+                android:layout_weight="0.20" />
+
+
+            <TextView
+                android:id="@+id/tv_network_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.09"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >-->
+
+            <LinearLayout
+                android:id="@+id/ll_coming_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    app:srcCompat="@drawable/answer"
+                    android:layout_marginRight="80dp"
+                    android:id="@+id/btn_answer_call"
+                    android:layout_weight="0.14" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/hang_up"
+                    android:id="@+id/btn_refuse_call"
+                    android:layout_weight="0.14" />
+
+            </LinearLayout>
+        <!--</FrameLayout>-->
+
+        <ImageView
+            android:visibility="visible"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hang_up"
+            android:id="@+id/btn_cancel_call"
+            android:layout_gravity="center_horizontal"
+             />
+    <!--</LinearLayout>-->
+
+</LinearLayout>

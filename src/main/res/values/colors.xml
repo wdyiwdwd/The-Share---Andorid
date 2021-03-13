@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f9b0c9</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="text">#FFFFFF</color>
+    <color name="swanlake">#c5e5e5</color>
+    <color name="btn_color">#fff3d8</color>
+    <color name="btn_color_press">#ffdbdb</color>
+    <color name="swallow_grass">#c5e5d2</color>
+</resources>

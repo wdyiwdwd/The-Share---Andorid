@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="52dp" >
+
+    <Button
+        android:text="细"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/subWidth"
+        android:textAlignment="center"
+        android:background="@color/swanlake"
+        />
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/theWidth"
+        android:textAlignment="center"
+        />
+
+
+    <Button
+        android:text="粗"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/addWidth"
+        android:textAlignment="center"
+        android:background="@color/swanlake"
+        />
+
+    <TextView
+        android:text="如果使用橡皮请增大宽度"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/swanlake"
+        />
+</LinearLayout>

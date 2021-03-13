@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    android:weightSum="1">
+
+    <TextView
+        android:text="From"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/call_from"
+        android:layout_weight="0.15" />
+
+    <Chronometer
+        android:layout_width="85dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:id="@+id/duration_clock" />
+
+    <FrameLayout
+        android:id="@+id/shift_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+
+    </FrameLayout>
+</LinearLayout>
